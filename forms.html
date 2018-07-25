@@ -2,56 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Forms</title>
+    <title>Register with us</title>
 </head>
 <body>
 
-<form method="get" action="/login">
-<label for="username">Current Alias or e-mail</label>
-<input id="username" username type="text">
-<br>
+    <form method=”POST” action="http://request-inspector.glitch.me/">
+        <fieldset>
+            <legend> Login</legend>
+            <label for="email">e-mail</label>
+            <input id="email" name="email" type="text">
+            <br><br>
+            <label for="password">password</label>
+            <input id="password" name="password" type="password">
+        </fieldset>
+        <br><br>
 
-<label for="password">Mission ID#</label>
-<input id="password" name="" type="password">
-<br>
-
-<button>Give me a push </button>
-
-    <hr>
-
-    <br>
-
-
-
-
-<p>My goal is to: <q>Build a future where I am feared and respected</q> Do you agree with this goal?</p>
-</form>
+            First name:<br>
+            <input type="text" name="firstname" value=""><br>
+            Last name:<br>
+            <input type="text" name="lastname" value=""><br><br>
 
 
 
-<textarea>Write your answer here.
-    </textarea>
- <hr>
-<br>
+        <br><br>
+        <fieldset>
+            <legend>Bio</legend>
+            <p> Tell us about yourself, your company, and your company's needs... </p>
+            <textarea> </textarea>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <p>How did you hear about <strong>Veridian Dynamics</strong>?</p>
+            <!--needs an image -->
+            <div><label> <input type=radio name=media>billboard</label></div><br>
+            <div><label> <input type=radio name=media>radio advertisement</label></div><br>
+            <div><label> <input type=radio name=media>internet advertisement</label></div><br>
+            <div><label> <input type=radio name=media> other </label></div>
 
 
-<select> Name = "choice"
-    <option value = "1">banana</option>
-    <option value = "2">orange</option>
-    <option value = "3">apple</option>
-</select>
+            <textarea>If other, please specify... </textarea>
+        </fieldset>
+        <br><br>
+        <fieldset>
+
+            <legend> What web browser are you using?</legend>
+            <select> Name = "choice"
+                <option value="1">Google Chrome</option>
+                <option value="2">Safari</option>
+                <option value="3">Firefox</option>
+                <option value="3">Internet Explorer</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
 
 
-input color
-date
-number
-e-mail
-monthrange
-search
-tel time
-url
-week
 
-
-</body>
+    </body>
 </html>
