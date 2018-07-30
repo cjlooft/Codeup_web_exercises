@@ -1,0 +1,87 @@
+
+    /* Smartphones (portrait and landscape) ----------- */
+@media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px)
+
+body {
+    font-family: san-serif;
+}
+
+.alert-info hidden-on-desktop {
+        width: length;
+        height: auto;
+        border: 2px solid grey;
+        background-color:#c0ffff;
+        color: black;
+        padding: 16px 220px;
+        font-size: 16px;
+        cursor: pointer;
+}
+
+
+}
+
+.nav {
+    Float: left;
+}
+
+.nav-links {
+    background-color: grey
+    margin: .5em
+
+
+
+.header-img {/* should this be 14d and 21.1875 */
+    height: 224px;
+    min-width: 339px;
+    padding:none;
+    border:none;
+    margin: 2em 1em;
+
+
+}
+.main {
+    padding:none;
+    border:none;
+    margin: 2em 1em  2.5em 1em;
+}
+.sub-section{
+    font-style:italic;
+}
+
+.social-media-links: href
+}
+
+
+@media screen and (min-width:992px)
+h1 {
+    float: left
+}
+nav-links [
+    float: right]
+
+header-img {
+    width: 890px;
+    Height: 385 px;
+}
+
+.main {
+    height: ;
+    float: left
+
+}
+
+.sub-section    {
+    float: right
+}
+
+footer {
+
+}
+
+.social-media-links {
+href="facebook_logos_PNG19761" width: 50px;
+href="twitter-bird-png-209.png" width: 50px;
+href="ig-log-email.png" width: 50px;
+
