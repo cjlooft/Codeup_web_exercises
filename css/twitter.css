@@ -35,6 +35,7 @@ a {
     background: var(--light-bg);
     display: inline-block;
     position: fixed;
+    z-index 5;
 
 
 }
@@ -58,7 +59,8 @@ a {
 }
 .profile {
     background: var(--light-bg);
-    height: 80px
+    height: 80px;
+
 }
 
 .profile-header {
@@ -66,8 +68,21 @@ a {
     top: 16em
 }
 
-
-
+.profile-details: {
+    float:  left;
+    width: 25%;
+    margin: 0 .5em;
+}
+.timeline: {
+    float: left;
+    width: 50%;
+    margin: 0 .5em
+}
+.who-to-follow {
+    float: right
+    width: 25%;
+    margin: 0 .5em;
+}
 
 }
 .btn {
