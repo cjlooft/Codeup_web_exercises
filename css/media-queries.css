@@ -1,23 +1,98 @@
 
-    /* Smartphones (portrait and landscape) ----------- */
-@media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px)
-
 body {
     font-family: san-serif;
 }
+.fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
 
-.alert-info hidden-on-desktop {
-        width: length;
-        height: auto;
-        border: 2px solid grey;
-        background-color:#c0ffff;
-        color: black;
-        padding: 16px 220px;
-        font-size: 16px;
-        cursor: pointer;
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+ /* instgram */
+
+.fa-instagram {
+    background: #0078bb;
+    color: white;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 360px) {
+    body {
+        max-width: 100%
+        }
+    }
+    .alert-info {
+        width: 316px;
+        height: 20px;
+        border: 2px solid grey;
+        background-color: #c0ffff;
+        color: black;
+        padding: 10px 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: .25em 0 .75em 0;
+        text-align: center;
+        font-family: Arial
+    }
+
+    li {
+        display: inline-block;
+        height: 1.5em;
+        width: 87%;
+        padding: .5em;
+        background: #cccccc;
+        text-align: center;
+        border: 1em solid white;
+        margin: 0;
+
+    }
+
+    ul {
+
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header-img img {
+        height: 224px;
+        width: 339px;
+        padding: 0;
+        border: none;
+        margin: .5em 0;
+
+    }
+
+    footer {
+        width: 200px;
+        float: left;
+        font-size: small;
+    }
+
+
+
+.social-media-links {
+        float: right;
+
+    }
+
+
 
 
 }
@@ -26,44 +101,29 @@ body {
     Float: left;
 }
 
-.nav-links {
-    background-color: grey
-    margin: .5em
-
-
-
-.header-img {/* should this be 14d and 21.1875 */
-    height: 224px;
-    min-width: 339px;
-    padding:none;
-    border:none;
-    margin: 2em 1em;
-
 
 }
+
 .main {
-    padding:none;
-    border:none;
-    margin: 2em 1em  2.5em 1em;
-}
-.sub-section{
-    font-style:italic;
+    padding: 0;
+    border: none;
+    margin: 2em 1em 2.5em 1em;
 }
 
-.social-media-links: href
+.sub-section {
+    font-style: italic;
 }
 
-
-@media screen and (min-width:992px)
+@media screen and (min-width: 992px)
 h1 {
     float: left
-}
-nav-links [
-    float: right]
+
+
+
 
 header-img {
     width: 890px;
-    Height: 385 px;
+    height: 385px;
 }
 
 .main {
@@ -72,16 +132,12 @@ header-img {
 
 }
 
-.sub-section    {
+.sub-section {
     float: right
 }
 
 footer {
-
+    width: 144px;
+    float: left;
 }
-
-.social-media-links {
-href="facebook_logos_PNG19761" width: 50px;
-href="twitter-bird-png-209.png" width: 50px;
-href="ig-log-email.png" width: 50px;
 
