@@ -80,38 +80,27 @@ body {
     }
 
     footer {
-        width: 200px;
+        width: 170px;
         float: left;
         font-size: small;
     }
 
-
-
-.social-media-links {
-        float: right;
-
+    #social-media-links {
+        text-align: right;
+        height: 90px;
+        width:  350px;
+        margin: 0;
+        padding: 0;
+        border: 1em;
     }
 
 
 
 
-}
-
-.nav {
-    Float: left;
-}
-
 
 }
 
-.main {
-    padding: 0;
-    border: none;
-    margin: 2em 1em 2.5em 1em;
-}
 
-.sub-section {
-    font-style: italic;
 }
 
 @media screen and (min-width: 992px)
