@@ -2,8 +2,10 @@
 body {
     font-family: san-serif;
 }
+
+
 .fa {
-        padding: 20px;
+        padding: .5em;
         font-size: 30px;
         width: 30px;
         text-align: center;
@@ -28,12 +30,12 @@ body {
     background: #0078bb;
     color: white;
 }
-/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones */
 @media only screen and (max-width: 360px) {
     body {
         max-width: 100%
         }
-    }
+
     .alert-info {
         width: 316px;
         height: 20px;
@@ -70,6 +72,7 @@ body {
         margin: 0;
     }
 
+
     .header-img img {
         height: 224px;
         width: 339px;
@@ -79,54 +82,94 @@ body {
 
     }
 
+
     footer {
-        width: 170px;
+        width: 50%;
         float: left;
-        font-size: small;
+        font-size: smaller;
+        position: relative;
     }
 
     #social-media-links {
-        text-align: right;
-        height: 90px;
-        width:  350px;
-        margin: 0;
-        padding: 0;
-        border: 1em;
+
+
+        width: 100%;
+        text-align: center;
+
+        margin: 0 auto;
+
+
+
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-width:500px)  {
+
+    body {
+    max-width: 950px;
+    }
+
+    .hidden-on-desktop {
+    display: none;
+    }
+
+    h1 {
+        font-family: Arial;
+        width: 30%;
+        float: left;
+    }
+
+    .header-img img  {
+        width: 100%;
+    }
+
+    #main {
+        position: relative;
+        float: left;
+        width: 60%;
+    }
+
+    .sub-section {
+        positon: relative;
+        float: left;
+        width: 30%
+    }
+
+    ul {
+
+        list-style: none;
+        float: right;
+        margin-top: 3em;
+
+    }
+    li {
+        display: inline-block;
+        padding: 0 0 0 3em;
+
     }
 
 
 
+    footer {
+            width: 90%;
+            float: left;
+            font-size: medium;
+            position: relative;
+
+        }
 
 
-}
+    #social-media-links {
+        display: inline-block;
+        float: right;
+    }
 
 
-}
-
-@media screen and (min-width: 992px)
-h1 {
-    float: left
-
-
-
-
-header-img {
-    width: 890px;
-    height: 385px;
-}
-
-.main {
-    height: ;
-    float: left
 
 }
-
-.sub-section {
-    float: right
-}
-
-footer {
-    width: 144px;
-    float: left;
-}
-
