@@ -138,9 +138,12 @@ body {
     .sub-section {
         positon: relative;
         float: left;
-        width: 30%
+        width: 40%
     }
 
+    p {
+        margin: .5em;
+    }
     ul {
 
         list-style: none;
