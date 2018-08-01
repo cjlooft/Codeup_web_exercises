@@ -1,0 +1,175 @@
+
+body {
+    font-family: san-serif;
+}
+
+
+.fa {
+        padding: .5em;
+        font-size: 30px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+ /* instgram */
+
+.fa-instagram {
+    background: #0078bb;
+    color: white;
+}
+/* Smartphones */
+@media only screen and (max-width: 360px) {
+    body {
+        max-width: 100%
+        }
+
+    .alert-info {
+
+        border: 2px solid grey;
+        background-color: #c0ffff;
+        color: black;
+        padding: 10px 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: .25em 0 .75em 0;
+        text-align: center;
+        font-family: Arial
+    }
+
+    li {
+        display: inline-block;
+        width: 100%;
+        background: #cccccc;
+        text-align: center;
+        border: .5em solid white;
+        margin: 0;
+
+    }
+
+    ul {
+
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .header-img img {
+        height: 224px;
+        width: 339px;
+        padding: 0;
+        border: none;
+        margin: .5em 0;
+
+    }
+
+
+    footer {
+        width: 50%;
+        float: left;
+        font-size: smaller;
+        position: relative;
+    }
+
+    #social-media-links {
+
+
+        width: 100%;
+        text-align: center;
+
+        margin: 0 auto;
+
+
+
+    }
+
+
+}
+
+
+
+
+
+@media screen and (min-width:500px)  {
+
+    body {
+    max-width: 950px;
+    }
+
+    .hidden-on-desktop {
+    display: none;
+    }
+
+    h1 {
+        font-family: Arial;
+        width: 30%;
+        float: left;
+    }
+
+    .header-img img  {
+        width: 100%;
+    }
+
+    #main {
+        position: relative;
+        float: left;
+        width: 60%;
+    }
+
+    .sub-section {
+        positon: relative;
+        float: left;
+
+    }
+
+    p {
+        margin: .5em;
+    }
+    ul {
+
+        list-style: none;
+        float: right;
+        margin-top: 3em;
+
+    }
+    li {
+        display: inline-block;
+        padding: 0 0 0 3em;
+
+    }
+
+
+
+    footer {
+            width: 90%;
+            float: left;
+            font-size: medium;
+            position: relative;
+
+        }
+
+
+    #social-media-links {
+        display: inline-block;
+        float: right;
+    }
+
+
+
+}
