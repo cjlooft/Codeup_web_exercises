@@ -1,0 +1,10 @@
+
+.jumbotron {
+    background-image: url("../image/pizza.png");
+    background-size: 100%;
+}
+
+.jumbotron h1 {
+    background: hsla(360, 100%, 100%, 0.6);
+    color: #6f6a5c;
+}
