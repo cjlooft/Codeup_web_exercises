@@ -87,3 +87,8 @@ var purchaser = ( boughtMorethan2 && coupon  || premiumMember);
 
 
 
+funtcion yell (input)
+{
+    return input.toUpperCase();
+}
+    alert (yell("Hi, everybody!"))
